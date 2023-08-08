@@ -1,0 +1,70 @@
+.logo p{
+    font-size: 12px;
+}
+.home-btn{
+    border-color: #009ad8;
+    color: #009ad8;
+}
+.contact-btn:hover{
+    border-color: #009ad8;
+    color: #009ad8;
+}
+
+.section{
+    background-image: url(../banner.png);
+    background-size: cover;
+    height: 100vh;
+}
+.find-loc{
+    margin-top: 75px;
+}
+#submit{
+    /* top: 0px; */
+    right: 9px;
+    bottom: 5px;
+    padding: 11px 40px;
+    border-radius: 30px;
+    color: white;
+    
+    background: #009ad8;
+}
+
+.fixed-color{
+    color: #bfc1c8;
+}
+.how-is-weather{
+    color: #009ad8;
+}
+ 
+.content{
+    background-color: #323544;
+}
+.curren-time , .tomorrow-day , .aftertomorrow-day{
+    background-color: #2a2d39;
+} 
+.current-weather-no{
+    font-size: 70px;
+}
+
+.current-time-info img {
+    width: 127px;
+}
+input[type=text]{
+    color: white;
+}
+
+.section2{
+    background-color: #2a2d39;
+}
+
+.socicons{
+    margin-top: 90px;
+
+}
+
+.socicons i{
+    color: #009ad8;
+    /* border: 2px solid black; */
+    /* border-radius: 50%; */
+    
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap.min.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    
+    <div class="bg-dark">
+
+        <div class="container py-5 bg-dark text-white ">
+
+            <div class="logo  d-flex align-items-center justify-content-between">
+                <div class=" d-flex">
+                     <img src="../logo.png" class="" alt="">
+                  <div class="logo-cont ms-2 d-flex flex-column align-items-center justify-content-center">
+                    <h6>weather</h6>
+                    <p>tagline goes here</p>
+                  </div>
+                </div>
+
+                <div class="right  px-5 d-flex justify-content-between">
+
+                    <ul class=" list-unstyled d-flex px-5 justify-content-between fs-6 text-white">
+                        <li class="px-4 btn home-btn contact-btn rounded-pill">home</li>
+                        <li class="px-4 contact-btn btn text-white rounded-pill">news</li>
+                        <li class="px-4 contact-btn btn text-white rounded-pill">live Cameras</li>
+                        <li class="px-4 contact-btn text-white btn rounded-pill">Photos</li>
+                        <li class="px-4 contact-btn text-white btn rounded-pill">contact</li>
+                        
+                    </ul>
+                </div>
+            </div>
+
+          
+        </div>
+    </div>
+    <div class="section pt-5">
+        <div class="container">
+            <div class="form  position-relative ">
+                <input type="text" placeholder="find your location" class="bg-dark py-3 w-100 find-loc rounded-5" onkeyup="search(this.value)">
+                <input type="button" value="Find" id="submit" class="position-absolute">
+            </div>
+        </div>
+
+        <div class="container  mt-5">
+            <div class="row">
+                <div class="col-md-4  pb-3">
+                  <div class=" content">
+                    <div class="curren-time  text-center py-2 fixed-color px-2">
+                        <span class="day">monday</span>
+                        <span class="date">7 August</span>
+                    </div>
+                    <div class="first">
+                       
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+                <div class="col-md-4  pb-3">
+                    <div class=" content text-center">
+                        <div class="tomorrow-day py-2 fixed-color px-2 text-center">
+                            
+                        </div>
+                        <div class="tomorrow-time-info  ">
+                
+                           
+                            
+                            
+                        </div>
+                      </div>
+                </div>
+
+
+
+
+
+
+
+
+                <div class="col-md-4  pb-3">
+                    <div class=" content text-center">
+                        <div class="aftertomorrow-day py-2 fixed-color px-2 text-center">
+                            <span class="tomorrow-day ">Tuesday</span>
+                        </div>
+                        <div class="aftertomorrow-time-info  ">
+                
+                          
+                            
+                            
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="section2 py-5">
+        <div class="container">
+       
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form  position-relative ">
+                        <input type="text" placeholder="find your location" class="bg-dark py-3 w-100 find-loc rounded-5" >
+                        <input type="button" value="Submit" id="submit" class="position-absolute">
+
+                    </div>
+                    <p class="text-white my-4">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="socicons form  d-flex justify-content-between w-50 fs-4 text-center ps-5 ">
+
+                        <i class="fa-brands fa-facebook "></i>
+                        <i class="fa-brands fa-twitter "></i>
+                        <i class="fa-brands fa-google-plus-g "></i>
+                        <i class="fa-brands fa-pinterest "></i>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
+
+    <script src="../bootstrap.bundle.min.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+</html>
